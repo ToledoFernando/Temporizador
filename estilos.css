@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+body{
+    background-color: #000;
+}
+.contenedor{
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#tiempoHoras, #tiempoMinutos, #tiempoSegundos{
+    outline: none;
+    cursor: default;
+    width: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.contenedor label{
+    color: #fff;
+}
+
+#mas1h,#menos1h,#mas1m,#menos1m,#mas1s,#menos1s{
+    border-radius: 35px;
+    height: 70px;
+    width: 70px;
+    color: #fff;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #881a1a;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all 0.2s;
+}
+
+#mas1h:active,#menos1h:active,#mas1m:active,#menos1m:active,#mas1s:active,#menos1s:active{
+    background-color: #711111;
+}
+
+
+
+.contador {
+    width: 240px;
+    border:  3px dashed #871414;
+}
+
+#iniciar {
+    background-color: #ff1717;
+    color: #fff;
+    border: 1px solid rgb(192, 192, 192);
+    font-size: 20px;
+    width: 120px;
+    height: 50px;
+    transition: all 0.2s;
+}
+#iniciar:active{
+    background-color: #871414;
+}
+
+#parar {
+    background-color: #000000;
+    color: #fff;
+    border: 1px solid rgb(192, 192, 192);
+    font-size: 20px;
+    width: 120px;
+    height: 50px;
+    transition: all 0.2s;
+}
+#parar:active{
+    background-color: rgba(104, 104, 104, 0.267);
+}
+
+#reiniciar{
+    width: 180px;
+    margin-left: 40px;
+    margin-top: 10px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
+    transition: all 0.2s;
+}
+
+#reiniciar:active{
+    background-color: #000;
+    color: #fff;
+}
+
+#detener {
+    background-color: #000000;
+    color: #fff;
+    border: 1px solid rgb(192, 192, 192);
+    font-size: 20px;
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 40px;
+    height: 50px;
+    transition: all 0.2s;
+}
+#detener:active{
+    background-color: rgba(104, 104, 104, 0.267);
+}
