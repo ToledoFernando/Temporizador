@@ -73,7 +73,6 @@ function iniciarCronometro(){
         document.getElementById('tiempoMinutos').value = 0;
         document.getElementById('tiempoSegundos').value = 0;
         clearInterval(conteo);
-        alert('Conteo detenido')
     }
 
         if (document.getElementById('tiempoSegundos').value > 0){
